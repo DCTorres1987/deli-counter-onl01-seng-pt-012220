@@ -23,7 +23,7 @@ def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{customer}."
+    puts "Currently serving #{katz_deli.size}."
       number -= 1
     end
   end
