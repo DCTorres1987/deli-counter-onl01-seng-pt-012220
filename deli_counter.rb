@@ -23,9 +23,7 @@ def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else 
-    number = 1 
-    katz_deli.each do |customer|
-      puts "Currently serving #{customer}."
+    puts "Currently serving #{customer}."
       number -= 1
     end
   end
